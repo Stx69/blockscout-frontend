@@ -23,6 +23,7 @@ peerDependencyRules:
     '@lifi/widget-light@4.3.2>viem': '2.41.2'
 
 overrides:
+  bigint-buffer: file:vendor/bigint-buffer
   '@wagmi/connectors': "6.2.0"
   ws: "8.21.0"
   axios: '1.18.0'
@@ -130,7 +131,7 @@ allowBuilds:
   esbuild: false
   iso-constants: false
   keccak: false
-  protobufjs: '7.6.5'
+  protobufjs: true
   sharp: '0.35.4'
   tree-sitter: false
   tree-sitter-json: false
