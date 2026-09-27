@@ -23,6 +23,14 @@ export async function proxy(req: NextRequest) {
     return;
   }
 
+  const host = req.headers.get('host') ?? '';
+  if (host.startsWith('127.0.0.1')) {
+    const url = req.nextUrl.clone();
+    url.hostname = 'localhost';
+    url.port = process.env.NEXT_PUBLIC_APP_PORT || '4000';
+    return NextResponse.redirect(url);
+  }
+
   const accountResponse = middlewares.account(req);
   if (accountResponse) {
     return accountResponse;
