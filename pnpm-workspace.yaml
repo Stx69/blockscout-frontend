@@ -25,15 +25,95 @@ peerDependencyRules:
 overrides:
   '@wagmi/connectors': "6.2.0"
   ws: "8.21.0"
-  axios: "1.12.0"
+  axios: '1.18.0'
   tar-fs: "2.1.4"
-  node-forge: "1.3.2"
-  brace-expansion: "1.1.12"
-  js-yaml: "4.1.1"
+  node-forge: "1.4.0"
+  brace-expansion: '1.1.18'
+  js-yaml: '4.3.2'
   "@noble/hashes": "1.8.0"
   "vite-plugin-dts>brace-expansion": "2.0.2"
   "minimatch@10>brace-expansion": "5.0.9"
-  protobufjs: "7.5.5"
+  protobufjs: '7.6.5'
+  '@libp2p/kad-dht@<16.2.6': 16.2.6
+  '@libp2p/peer-store@>=8.0.0 <12.0.24': 12.0.24
+  '@opentelemetry/core@<2.8.0': 2.8.0
+  '@opentelemetry/propagator-jaeger@<2.9.0': 2.9.0
+  axios@>=1.0.0 <1.15.0: '1.18.0'
+  axios@>=1.0.0 <1.15.1: '1.18.0'
+  axios@>=1.0.0 <1.15.2: '1.18.0'
+  axios@>=1.0.0 <1.16.0: '1.18.0'
+  axios@>=1.0.0 <1.18.0: '1.18.0'
+  axios@>=1.0.0 <=1.13.4: '1.18.0'
+  axios@>=1.7.0 <1.16.0: '1.18.0'
+  axios@>=1.7.0 <1.18.0: '1.18.0'
+  baseline-browser-mapping@>=2.0.0 <2.11.0: 2.11.0
+  bn.js@<4.12.3: 4.12.3
+  brace-expansion@<1.1.13: '1.1.18'
+  brace-expansion@<1.1.16: '1.1.18'
+  brace-expansion@<1.1.17: '1.1.18'
+  brace-expansion@<1.1.18: '1.1.18'
+  browserslist@<=4.28.6: 4.28.7
+  decode-uri-component@<=0.4.2: 0.5.0
+  dompurify@<=3.4.10: '3.4.13'
+  dompurify@<=3.4.11: '3.4.13'
+  dompurify@<=3.4.12: '3.4.13'
+  fast-uri@>=3.0.0 <3.1.3: '3.1.6'
+  fast-uri@>=3.0.0 <3.1.5: '3.1.6'
+  fast-uri@>=3.0.0 <3.1.6: '3.1.6'
+  fast-uri@>=3.0.0 <=3.1.3: '3.1.6'
+  fast-uri@>=3.1.2 <3.1.6: '3.1.6'
+  fflate@>=0.4.5 <0.4.9: 0.4.9
+  file-type@>=13.0.0 <21.3.1: '21.3.2'
+  file-type@>=20.0.0 <=21.3.1: '21.3.2'
+  hono@<4.12.34: '4.13.5'
+  hono@<4.13.5: '4.13.5'
+  hono@>=3.8.0 <4.12.34: '4.13.5'
+  hono@>=4.0.0 <4.12.27: '4.13.5'
+  hono@>=4.11.8 <4.12.27: '4.13.5'
+  hono@>=4.12.0 <4.12.34: '4.13.5'
+  hono@>=4.3.3 <4.12.27: '4.13.5'
+  hono@>=4.7.0 <4.12.34: '4.13.5'
+  image-size@>=0.6.3 <=2.0.2: 2.0.3
+  image-size@>=1.2.0 <=2.0.2: 2.0.3
+  immutable@<3.8.4: 3.8.4
+  js-yaml@>=4.0.0 <4.3.0: '4.3.2'
+  js-yaml@>=4.0.0 <4.3.1: '4.3.2'
+  js-yaml@>=4.0.0 <4.3.2: '4.3.2'
+  js-yaml@>=4.0.0 <=4.1.1: '4.3.2'
+  linkify-it@<=5.0.1: 5.0.2
+  nanoid@<3.3.16: '3.3.18'
+  nanoid@<3.3.18: '3.3.18'
+  nanoid@>=4.0.0 <5.1.16: '5.1.16'
+  next@>=16.0.0 <16.3.3: 16.3.5
+  node-forge@<1.4.0: 1.4.0
+  node-forge@<=1.3.3: 1.4.0
+  phoenix@>=1.8.0-rc.0 <1.8.9: 1.8.9
+  postcss-selector-parser@>=7.1.0 <7.1.3: 7.1.3
+  postcss@<=8.5.17: '8.5.23'
+  postcss@<=8.5.22: '8.5.23'
+  protobufjs@<=7.5.5: '7.6.5'
+  protobufjs@<=7.5.7: '7.6.5'
+  protobufjs@<=7.6.0: '7.6.5'
+  protobufjs@<=7.6.2: '7.6.5'
+  protobufjs@>=7.5.0 <=7.6.4: '7.6.5'
+  qs@>=2.2.5 <6.16.0: 6.16.0
+  qs@>=6.11.1 <=6.15.1: 6.15.2
+  qs@>=6.14.2 <=6.15.3: 6.16.0
+  sharp@<0.35.0: '0.35.4'
+  sharp@<0.35.4: '0.35.4'
+  shell-quote@<=1.8.4: 1.9.0
+  smol-toml@<=1.7.0: 1.7.1
+  socket.io-parser@>=4.0.0 <4.2.7: 4.2.7
+  stream-json@<=3.4.0: 3.5.0
+  svgo@>=1.0.0 <2.8.3: '2.8.4'
+  svgo@>=1.0.0 <2.8.4: '2.8.4'
+  svgo@>=3.0.0 <3.3.4: '3.3.5'
+  svgo@>=3.0.0 <3.3.5: '3.3.5'
+  undici@<6.27.0: '6.28.0'
+  undici@<6.28.0: '6.28.0'
+  undici@>=7.0.0 <7.29.0: '7.29.0'
+  uuid@<11.1.1: 11.1.1
+  valibot@<=1.4.1: 1.4.2
 
 # pnpm 11+: allowlisted dependency install scripts (required for native addons).
 # Replaces pnpm 10's onlyBuiltDependencies — same policy: only these two packages may run build scripts.
@@ -50,8 +130,8 @@ allowBuilds:
   esbuild: false
   iso-constants: false
   keccak: false
-  protobufjs: false
-  sharp: true
+  protobufjs: '7.6.5'
+  sharp: '0.35.4'
   tree-sitter: false
   tree-sitter-json: false
   tsl-apple-cloudkit: false

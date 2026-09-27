@@ -41,6 +41,9 @@
     ],
     // words - list of words to be always considered correct
     "words": [
+        "fflate",
+        "hono",
+        "undici",
         "aatx",
         "abfnrtv",
         "abitype",
